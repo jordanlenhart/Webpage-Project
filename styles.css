@@ -1,0 +1,161 @@
+/* WHOLE DOC */
+
+html {
+    display: flex;
+    justify-self: center;
+    width: 1400px;
+  }
+  
+  body {
+    background-color: #284B63;
+    margin-top: 0px;
+  }
+  
+  .font-stats {
+    font-family: 'Lexend', sans-serif;
+    color: #FFFFFF;
+    line-height: 200%;
+  }
+  
+  
+  /* NAV BAR */
+  
+  nav {
+    position: fixed;
+    display: flex;
+    height: 120px;
+    width: 1380px;
+    top: 0%;
+    background-color: #3C6E71;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  
+  .nav-bar-tabs {
+    display: flex;
+    column-gap: 100px;
+    justify-content: flex-end;
+    padding: 25px;
+    list-style-type: none;
+    font-size: 32px;
+  }
+  
+  .nav-bar-boxes {
+    display: flex;
+    align-items: center;
+    background-color: #284B63;
+    border-radius: 20%;
+    padding: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  
+  /* SECTIONS */
+  
+  .section-headings {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .sections {
+    padding-top: 200px;
+  }
+  
+  
+  /* ABOUT ME SECTION */
+  
+  #about-me {
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    font-weight: lighter;
+  }
+  
+  .about-me-text {
+    font-size: 24px;
+    font-weight: lighter;
+  }
+  
+  .list-of-links {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    column-gap: 100px;
+  }
+  
+  
+  /* PROJECTS SECTION */
+  
+  .project-subheadings {
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #FFFFFF;
+    text-align: center;
+  }
+  
+  .project-boxes {
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+  }
+  
+  .project-icons {
+    padding: 75px;
+  }
+  
+  
+  
+  /* CONTACT SECTION */
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    column-gap: 500px;
+    font-size: 24px;
+    font-weight: 200;
+    padding-bottom: 300px;
+  }
+  
+  .contact-email {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .textbox-email {
+    width: 750px;
+    height: 50px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 1.5px;
+    background-color: #284B63;
+  }
+  
+  .contact-message {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .textbox-message {
+    width: 750px;
+    height: 200px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 1.5px;
+    background-color: #284B63;
+  }
+  
+  input[type=text] {
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  
+  input::placeholder {
+    font-size: 24px;
+    font-weight: 100;
+    text-align: start;
+  }

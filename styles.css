@@ -23,6 +23,7 @@ html {
   nav {
     position: fixed;
     display: flex;
+    align-items: center;
     height: 120px;
     width: 1380px;
     top: 0%;
@@ -30,19 +31,51 @@ html {
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
   }
+
+.nav-bar-profile {
+    display: flex;
+}
+
+.nav-info {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.nav-name-text {
+    font-weight: bold;
+}
+
+  .nav-bar-order {
+    list-style: none;
+    display: flex;
+    column-gap: 200px;
+  }
+
+  .nav-bar-contents {
+    display: flex;
+  }
   
+.profile-pic {
+    height: 80px;
+    width: 80px;
+    border-radius: 20%;
+}
+
+
+.nav-bar-links {
+    display: flex;
+}
+
   .nav-bar-tabs {
     display: flex;
     column-gap: 100px;
-    justify-content: flex-end;
     padding: 25px;
     list-style-type: none;
     font-size: 32px;
   }
   
   .nav-bar-boxes {
-    display: flex;
-    align-items: center;
     background-color: #284B63;
     border-radius: 20%;
     padding: 20px;

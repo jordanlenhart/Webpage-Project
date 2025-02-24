@@ -34,6 +34,8 @@ html {
 
 .nav-bar-profile {
     display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 .nav-info {
@@ -49,7 +51,7 @@ html {
   .nav-bar-order {
     list-style: none;
     display: flex;
-    column-gap: 200px;
+    column-gap: 120px;
   }
 
   .nav-bar-contents {
@@ -72,15 +74,18 @@ html {
     column-gap: 100px;
     padding: 25px;
     list-style-type: none;
-    font-size: 32px;
+    align-items: center;
+
   }
   
   .nav-bar-boxes {
     background-color: #284B63;
     border-radius: 20%;
-    padding: 20px;
+    height: 80px;
+    padding: 25px;
     text-decoration: none;
     color: #FFFFFF;
+    font-size: 24px;
   }
   
   
@@ -92,7 +97,7 @@ html {
   }
   
   .sections {
-    padding-top: 200px;
+    padding-top: 220px;
   }
   
   
@@ -101,7 +106,7 @@ html {
   #about-me {
     display: flex;
     flex-direction: column;
-    padding-top: 200px;
+    padding-top: 220px;
     font-weight: lighter;
   }
   
@@ -180,15 +185,34 @@ html {
     border-color: #FFFFFF;
     border-width: 1.5px;
     background-color: #284B63;
+    line-height: 100%;
   }
   
-  input[type=text] {
+  textarea[type=text] {
     font-size: 24px;
     color: #FFFFFF;
+    font-family: 'Lexend', sans-serif;
+    color: #FFFFFF;
+    line-height: 200%;
+    padding-left: 10px;
   }
   
-  input::placeholder {
+  placeholder {
     font-size: 24px;
     font-weight: 100;
-    text-align: start;
+    padding-left: 5px;
+    font-family: 'Lexend', sans-serif;
+    line-height: 200%;
+  }
+
+  .send-button {
+    margin-top:  20px;
+    width: 10%;
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #3C6E71;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 1.5px;
   }

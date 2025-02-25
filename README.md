@@ -1,7 +1,3 @@
-Here's a README file for your portfolio website project:  
-
----
-
 # Jordan Lenhart - Portfolio Website  
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as an aspiring web developer.  

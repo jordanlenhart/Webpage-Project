@@ -28,8 +28,8 @@ html {
     width: 1380px;
     top: 0%;
     background-color: #3C6E71;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
   }
 
 .nav-bar-profile {
@@ -80,7 +80,7 @@ html {
   
   .nav-bar-boxes {
     background-color: #284B63;
-    border-radius: 20%;
+    border-radius: 1em;
     height: 80px;
     padding: 25px;
     text-decoration: none;
